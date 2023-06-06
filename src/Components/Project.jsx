@@ -3,7 +3,6 @@
 import React from "react";
 
 export default function Project(props) {
-  console.log(props);
   return (
     <a href={props.link} target="_blank" rel="noreferrer" className="prj">
       <img src={props.img} alt="" />
