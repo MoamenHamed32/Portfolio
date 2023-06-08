@@ -1,7 +1,5 @@
-/* eslint-disable no-unused-vars */
-import React from "react";
 import projectsData from "../projects-data";
-import Project from "./project";
+import Project from "./Project.jsx";
 export default function Projects() {
   const myProjects = projectsData.map((prj) => {
     return (
