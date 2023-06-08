@@ -18,7 +18,7 @@ export default function Hero() {
         <h2>Moamen Hamed</h2>
         <h3>Front-End Developer</h3>
         <button className="cv">
-          <a href="/public/MoamenHamedCv.pdf" download="Moamen_HamedC.V.pdf">
+          <a href="MoamenHamedCv.pdf" download="Moamen_HamedC.V.pdf">
             Download Resume &nbsp;&nbsp;{" "}
             <i className="fa-solid fa-download"></i>
           </a>

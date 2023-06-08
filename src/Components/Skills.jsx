@@ -52,19 +52,15 @@ export default function Skills(props) {
               <h3>GitHub</h3>
             </li>
             <li>
-              {dark === true && (
-                <img src="/public/imgs/jquery-icon-png-24.jpg"></img>
-              )}
-              {dark === false && (
-                <img src="/public/imgs/jquery-icon-dark.png"></img>
-              )}
+              {dark === true && <img src="imgs/jquery-icon-png-24.jpg"></img>}
+              {dark === false && <img src="imgs/jquery-icon-dark.png"></img>}
               <h3>JQuery</h3>
             </li>
             <li>
               {dark === true ? (
-                <img src="/public/imgs/tailwind.png"></img>
+                <img src="imgs/tailwind.png"></img>
               ) : (
-                <img src="/public/imgs/tailwind-dark.png"></img>
+                <img src="imgs/tailwind-dark.png"></img>
               )}
               <h3>Tailwind</h3>
             </li>
