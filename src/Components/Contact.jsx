@@ -22,7 +22,7 @@ export default function Contact() {
       </nav>
       <div className="contact-me">
         <div className="data">
-          <h2>&copy; Moamen Hamed</h2>
+          <h2>Moamen Hamed</h2>
         </div>
         <div className="info">
           <p>
